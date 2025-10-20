@@ -1,0 +1,46 @@
+{
+  "testimonials": [
+    {
+      "name": "Lucas Martins",
+      "course": "Desenvolvimento Full Stack - 2024",
+      "text": "O curso foi um divisor de águas. Saí de um júnior estagnado para liderar projetos complexos em menos de um ano. A metodologia é viciante!",
+      "rating": 5,
+      "avatar": "LM"
+    },
+    {
+      "name": "Isabela Rocha",
+      "course": "Marketing Digital & IA - 2023",
+      "text": "Esqueça tudo o que você sabe sobre marketing. A Acelera EAD me entregou as chaves para o futuro da publicidade digital. Os resultados foram imediatos.",
+      "rating": 5,
+      "avatar": "IR"
+    },
+    {
+      "name": "Gabriel Alves",
+      "course": "Data Science & Analytics - 2023",
+      "text": "A profundidade do conteúdo é surreal. Senti que estava decodificando o mercado. Consegui uma promoção antes mesmo de concluir o curso.",
+      "rating": 5,
+      "avatar": "GA"
+    },
+    {
+      "name": "Fernanda Lima",
+      "course": "UX/UI Design Avançado - 2024",
+      "text": "Mais do que um curso, foi uma imersão que reconfigurou meu processo criativo. Os projetos práticos me deram um portfólio que impressiona qualquer recrutador.",
+      "rating": 4,
+      "avatar": "FL"
+    },
+    {
+      "name": "Rafael Oliveira",
+      "course": "Gestão de Projetos Ágeis - 2022",
+      "text": "Eu achava que sabia tudo sobre agilidade, mas o curso revelou gargalos que eu nem imaginava. Minha produtividade e a da minha equipe triplicaram.",
+      "rating": 5,
+      "avatar": "RO"
+    },
+    {
+      "name": "Beatriz Costa",
+      "course": "Cibersegurança Ofensiva - 2023",
+      "text": "A abordagem é 'hands-on' desde o primeiro dia. Aprendi a pensar como um invasor para construir defesas impenetráveis. Simplesmente indispensável.",
+      "rating": 5,
+      "avatar": "BC"
+    }
+  ]
+}

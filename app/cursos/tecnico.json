@@ -1,0 +1,314 @@
+[
+  {
+    "course": "Administração",
+    "type": "Curso Técnico",
+    "partner": "Global Tec",
+    "description": "Capacita o aluno a atuar na gestão de processos e recursos humanos, financeiros e materiais de empresas, otimizando o desempenho organizacional."
+  },
+  {
+    "course": "Agente Comunitário de Saúde",
+    "type": "Curso Técnico",
+    "partner": "Global Tec",
+    "description": "Prepara o profissional para trabalhar na promoção da saúde, prevenção de doenças e acompanhamento de famílias e comunidades em suas residências."
+  },
+  {
+    "course": "Agricultura",
+    "type": "Curso Técnico",
+    "partner": "Global Tec",
+    "description": "Foca no planejamento, execução e controle das atividades agrícolas, desde o preparo do solo até a comercialização da produção."
+  },
+  {
+    "course": "Agrimensura",
+    "type": "Curso Técnico",
+    "partner": "Global Tec",
+    "description": "Forma o técnico em medição e demarcação de terras, elaboração de mapas, plantas topográficas e gestão de projetos de agrimensura."
+  },
+  {
+    "course": "Agroindústria",
+    "type": "Curso Técnico",
+    "partner": "Global Tec",
+    "description": "O curso prepara para a industrialização de produtos de origem agrícola, pecuária e florestal, garantindo a qualidade e segurança alimentar."
+  },
+  {
+    "course": "Agropecuária",
+    "type": "Curso Técnico",
+    "partner": "Global Tec",
+    "description": "Habilita o profissional a planejar, executar e monitorar a produção animal e vegetal, utilizando técnicas modernas e sustentáveis."
+  },
+  {
+    "course": "Análises Clínicas",
+    "type": "Curso Técnico",
+    "partner": "Global Tec",
+    "description": "Capacita o técnico para realizar exames laboratoriais, auxiliando no diagnóstico e acompanhamento de doenças, e atuando em laboratórios e hospitais."
+  },
+  {
+    "course": "Aquicultura",
+    "type": "Curso Técnico",
+    "partner": "Global Tec",
+    "description": "Forma o técnico para o cultivo de organismos aquáticos como peixes, camarões e algas, gerenciando a produção e a sustentabilidade."
+  },
+  {
+    "course": "Automação Industrial",
+    "type": "Curso Técnico",
+    "partner": "Global Tec",
+    "description": "Prepara o aluno para projetar, instalar e programar sistemas de automação e controle em processos industriais, aumentando a eficiência."
+  },
+  {
+    "course": "Biotecnologia",
+    "type": "Curso Técnico",
+    "partner": "Global Tec",
+    "description": "Foca na manipulação de organismos vivos e biomoléculas para desenvolver produtos e processos em áreas como saúde, agricultura e indústria."
+  },
+  {
+    "course": "Contabilidade",
+    "type": "Curso Técnico",
+    "partner": "Global Tec",
+    "description": "Capacita o profissional para registrar e controlar as transações financeiras de empresas, elaborando relatórios e auxiliando na tomada de decisões."
+  },
+  {
+    "course": "Cuidados de Idosos",
+    "type": "Curso Técnico",
+    "partner": "Global Tec",
+    "description": "Prepara o aluno para prestar assistência integral a idosos, promovendo sua saúde, bem-estar e autonomia, e auxiliando em suas atividades diárias."
+  },
+  {
+    "course": "Defesa Civil",
+    "type": "Curso Técnico",
+    "partner": "Global Tec",
+    "description": "Forma o profissional para atuar na prevenção e resposta a desastres naturais e tecnológicos, elaborando planos de emergência e auxiliando a população."
+  },
+  {
+    "course": "Desenvolvimento de Sistemas",
+    "type": "Curso Técnico",
+    "partner": "Global Tec",
+    "description": "Capacita o aluno a desenvolver, testar e manter sistemas de software para diversas plataformas, utilizando linguagens de programação e ferramentas modernas."
+  },
+  {
+    "course": "Design Gráfico",
+    "type": "Curso Técnico",
+    "partner": "Global Tec",
+    "description": "Prepara para a criação de peças visuais como logotipos, embalagens, cartazes e mídias digitais, combinando estética e comunicação."
+  },
+  {
+    "course": "Designer de Interiores",
+    "type": "Curso Técnico",
+    "partner": "Global Tec",
+    "description": "Foca no planejamento e na execução de projetos de espaços internos, combinando funcionalidade, conforto e estética para residências e empresas."
+  },
+  {
+    "course": "Edificações",
+    "type": "Curso Técnico",
+    "partner": "Global Tec",
+    "description": "Habilita o profissional a planejar, executar e fiscalizar obras de construção civil, garantindo a qualidade, segurança e conformidade com as normas."
+  },
+  {
+    "course": "Eletromecânica",
+    "type": "Curso Técnico",
+    "partner": "Global Tec",
+    "description": "Capacita o aluno a projetar, instalar e manter sistemas eletromecânicos, combinando conhecimentos de eletricidade e mecânica para a indústria."
+  },
+  {
+    "course": "Eletrotécnica",
+    "type": "Curso Técnico",
+    "partner": "Global Tec",
+    "description": "Prepara o profissional para trabalhar com sistemas elétricos, instalações, manutenção e projetos, assegurando o funcionamento seguro de equipamentos."
+  },
+  {
+    "course": "Eletrônica",
+    "type": "Curso Técnico",
+    "partner": "Global Tec",
+    "description": "Foca no projeto, montagem e manutenção de circuitos e dispositivos eletrônicos, atuando em telecomunicações, automação e informática."
+  },
+  {
+    "course": "Enfermagem",
+    "type": "Curso Técnico",
+    "partner": "Global Tec",
+    "description": "Forma o técnico para prestar cuidados de enfermagem, auxiliando na recuperação de pacientes, na promoção da saúde e na prevenção de doenças."
+  },
+  {
+    "course": "Equipamentos Biomédicos",
+    "type": "Curso Técnico",
+    "partner": "Global Tec",
+    "description": "Capacita para a instalação, manutenção e calibração de equipamentos médico-hospitalares, garantindo seu uso seguro e eficiente."
+  },
+  {
+    "course": "Estética",
+    "type": "Curso Técnico",
+    "partner": "Global Tec",
+    "description": "Prepara o profissional para realizar procedimentos estéticos corporais e faciais, utilizando equipamentos e técnicas para o bem-estar e beleza."
+  },
+  {
+    "course": "Eventos",
+    "type": "Curso Técnico",
+    "partner": "Global Tec",
+    "description": "Foca no planejamento, organização e execução de eventos de diferentes portes, como feiras, congressos e festas, cuidando de todos os detalhes."
+  },
+  {
+    "course": "Farmácia",
+    "type": "Curso Técnico",
+    "partner": "Global Tec",
+    "description": "Habilita para atuar no auxílio ao farmacêutico, na dispensação de medicamentos, na manipulação de fórmulas e no controle de estoque de farmácias."
+  },
+  {
+    "course": "Gastronomia",
+    "type": "Curso Técnico",
+    "partner": "Global Tec",
+    "description": "Capacita para o preparo de pratos e gestão de cozinhas, combinando técnicas culinárias, segurança alimentar e criatividade."
+  },
+  {
+    "course": "Gerência em Saúde",
+    "type": "Curso Técnico",
+    "partner": "Global Tec",
+    "description": "Foca na gestão de serviços e instituições de saúde, abordando temas como administração de equipes, controle financeiro e qualidade do atendimento."
+  },
+  {
+    "course": "Guia em Turismo",
+    "type": "Curso Técnico",
+    "partner": "Global Tec",
+    "description": "Prepara o profissional para conduzir e orientar grupos de turistas em roteiros turísticos, fornecendo informações sobre história, cultura e meio ambiente."
+  },
+  {
+    "course": "Informática para Internet",
+    "type": "Curso Técnico",
+    "partner": "Global Tec",
+    "description": "Capacita para o desenvolvimento de sites e aplicações web, utilizando linguagens de programação e design para criar experiências digitais."
+  },
+  {
+    "course": "Logística",
+    "type": "Curso Técnico",
+    "partner": "Global Tec",
+    "description": "Foca na gestão de cadeias de suprimentos, do transporte ao armazenamento de produtos, otimizando fluxos e reduzindo custos operacionais."
+  },
+  {
+    "course": "Manutenção de Máquinas Industriais",
+    "type": "Curso Técnico",
+    "partner": "Global Tec",
+    "description": "Habilita para a manutenção preventiva e corretiva de máquinas e equipamentos industriais, garantindo a continuidade da produção."
+  },
+  {
+    "course": "Manutenção de Máquinas Navais",
+    "type": "Curso Técnico",
+    "partner": "Global Tec",
+    "description": "Foca na manutenção de motores e sistemas de embarcações, garantindo o funcionamento seguro e eficiente de máquinas navais."
+  },
+  {
+    "course": "Marketing",
+    "type": "Curso Técnico",
+    "partner": "Global Tec",
+    "description": "Prepara o aluno para atuar na promoção de produtos e serviços, pesquisa de mercado, análise de concorrência e estratégias de comunicação."
+  },
+  {
+    "course": "Meio Ambiente",
+    "type": "Curso Técnico",
+    "partner": "Global Tec",
+    "description": "Capacita o profissional a identificar e mitigar impactos ambientais, promovendo a sustentabilidade e a conformidade com as leis ambientais."
+  },
+  {
+    "course": "Metalurgia",
+    "type": "Curso Técnico",
+    "partner": "Global Tec",
+    "description": "Foca na produção, transformação e tratamento de metais e ligas, atuando em processos de fundição, laminação e soldagem."
+  },
+  {
+    "course": "Mineração",
+    "type": "Curso Técnico",
+    "partner": "Global Tec",
+    "description": "Habilita para atuar na exploração e beneficiamento de minérios, utilizando técnicas de extração e processamento para a indústria de mineração."
+  },
+  {
+    "course": "Manutenção de Máquinas Pesadas",
+    "type": "Curso Técnico",
+    "partner": "Global Tec",
+    "description": "Prepara para a manutenção de equipamentos pesados de construção civil e mineração, garantindo o desempenho e a vida útil dos equipamentos."
+  },
+  {
+    "course": "Nutrição e Dietética",
+    "type": "Curso Técnico",
+    "partner": "Global Tec",
+    "description": "Capacita o aluno a auxiliar nutricionistas no planejamento e preparo de refeições, e no acompanhamento de planos alimentares."
+  },
+  {
+    "course": "Óptica",
+    "type": "Curso Técnico",
+    "partner": "Global Tec",
+    "description": "Foca na produção e montagem de lentes e óculos, e na assistência a oftalmologistas e optometristas na adaptação de lentes de contato."
+  },
+  {
+    "course": "Prevenção e Controle de Incêndios",
+    "type": "Curso Técnico",
+    "partner": "Global Tec",
+    "description": "Prepara o profissional para identificar riscos de incêndio, elaborar planos de prevenção e atuar em situações de emergência."
+  },
+  {
+    "course": "Qualidade",
+    "type": "Curso Técnico",
+    "partner": "Global Tec",
+    "description": "Habilita para implementar e auditar sistemas de gestão da qualidade, garantindo que produtos e serviços atendam aos padrões e normas exigidos."
+  },
+  {
+    "course": "Radiologia",
+    "type": "Curso Técnico",
+    "partner": "Global Tec",
+    "description": "Capacita para a realização de exames de imagem, como radiografias e tomografias, atuando em clínicas, hospitais e centros de diagnóstico."
+  },
+  {
+    "course": "Recursos Humanos",
+    "type": "Curso Técnico",
+    "partner": "Global Tec",
+    "description": "Foca na gestão de pessoas, incluindo recrutamento, seleção, treinamento, folha de pagamento e gestão de benefícios, promovendo um ambiente de trabalho positivo."
+  },
+  {
+    "course": "Redes de Computadores",
+    "type": "Curso Técnico",
+    "partner": "Global Tec",
+    "description": "Prepara o aluno para projetar, instalar e manter redes de computadores, assegurando a conectividade e segurança de dados."
+  },
+  {
+    "course": "Refrigeração e Climatização",
+    "type": "Curso Técnico",
+    "partner": "Global Tec",
+    "description": "Capacita para a instalação, manutenção e reparo de sistemas de refrigeração e climatização em ambientes residenciais e comerciais."
+  },
+  {
+    "course": "Saúde Bucal",
+    "type": "Curso Técnico",
+    "partner": "Global Tec",
+    "description": "Habilita para auxiliar dentistas em procedimentos clínicos, realizar a profilaxia e orientar pacientes sobre higiene bucal, atuando em consultórios."
+  },
+  {
+    "course": "Secretaria Escolar",
+    "type": "Curso Técnico",
+    "partner": "Global Tec",
+    "description": "Prepara para atuar na gestão administrativa e de documentação de instituições de ensino, garantindo o bom funcionamento da secretaria."
+  },
+  {
+    "course": "Segurança do Trabalho",
+    "type": "Curso Técnico",
+    "partner": "Global Tec",
+    "description": "Foca na prevenção de acidentes e doenças ocupacionais, elaborando planos de segurança e inspecionando ambientes de trabalho."
+  },
+  {
+    "course": "Serviços Jurídicos",
+    "type": "Curso Técnico",
+    "partner": "Global Tec",
+    "description": "Capacita para auxiliar advogados e juízes em atividades de escritório, pesquisa jurídica e preparação de documentos, atuando em escritórios de advocacia e tribunais."
+  },
+  {
+    "course": "Sistemas de Energia Renovável",
+    "type": "Curso Técnico",
+    "partner": "Global Tec",
+    "description": "Prepara para a instalação e manutenção de sistemas de energia solar, eólica e outras fontes renováveis, promovendo a sustentabilidade energética."
+  },
+  {
+    "course": "Soldagem",
+    "type": "Curso Técnico",
+    "partner": "Global Tec",
+    "description": "Habilita o profissional para unir e cortar metais utilizando diferentes processos de solda, seguindo normas de segurança e qualidade."
+  },
+  {
+    "course": "Veterinária",
+    "type": "Curso Técnico",
+    "partner": "Global Tec",
+    "description": "Capacita para auxiliar médicos veterinários em clínicas e hospitais, na realização de exames, na medicação de animais e na orientação de tutores."
+  }
+]
