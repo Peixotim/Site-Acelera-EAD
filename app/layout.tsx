@@ -6,7 +6,6 @@ import { Poppins } from "next/font/google";
 
 import "@/styles/globals.css";
 
-import { Toaster } from "@/components/ui/toaster";
 
 
 const poppins = Poppins({
@@ -81,7 +80,7 @@ export default function RootLayout({
         className={`${poppins.variable} antialiased scroll-smooth`}
       >
         {children}
-        <Toaster/>
+      
       </body>
     </html>
   );
