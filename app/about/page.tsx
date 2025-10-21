@@ -60,7 +60,7 @@ const About = () => {
       contacts: [
         {
           number: "(31) 97329-6330",
-          href: "https://wa.me/5531973296330?text=Ol%C3%A1%2C%20gostaria%20de%20mais%20informa%C3%A7%C3%B5es%20sobre%20a%20parceria%20de%20Tecnicos%C3%B3%C3%A7%C3%A3o."
+          href: "https://wa.me/5531973296330?text=Ol%C3%A1%2C%20gostaria%20de%20mais%20informa%C3%A7%C3%B5es%20sobre%20a%20parceria%20de%20Tecnicos"
         },
       ]
     },
