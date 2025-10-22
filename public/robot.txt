@@ -1,0 +1,11 @@
+# Robots.txt para https://colegioaceleraead.com.br/
+User-agent: *
+Allow: /
+
+# Evitar indexação de páginas administrativas ou privadas (ajuste se tiver)
+Disallow: /wp-admin/
+Disallow: /login/
+Disallow: /checkout/
+
+# Sitemap
+Sitemap: https://colegioaceleraead.com.br/sitemap.xml
