@@ -224,34 +224,29 @@ const About = () => {
                       <MotionCard
                         key={contactIndex}
                         variants={fadeIn}
-                        className="relative overflow-hidden border-2 border-primary/20 shadow-lg transition-all duration-300"
+                        className="group border-2 border-primary/20 shadow-lg hover:shadow-xl hover:border-primary/40 transition-all duration-300 transform hover:-translate-y-2 bg-white"
                       >
-                        {/* Imagem de fundo fixa */}
-                        <Image
-                          src="/i.jpg" // coloque o caminho correto aqui (ex: /assets/contato-bg.jpg)
-                          alt="Imagem de fundo"
-                          fill
-                          className="object-cover object-center absolute inset-0 z-0"
-                        />
-
-                        {/* Overlay escuro para contraste */}
-                        <div className="absolute inset-0 bg-black/50 z-0" />
-
-                        <CardContent className="p-8 text-center h-full flex flex-col justify-between relative z-10 text-white">
+                        <CardContent className="p-8 text-center h-full flex flex-col justify-between">
                           <div className="flex-1">
-                            <div className="bg-primary/20 rounded-full w-20 h-20 flex items-center justify-center mx-auto mb-6">
-                              <Smartphone className="h-10 w-10 text-white" />
+                            <div className="relative rounded-full w-20 h-20 mx-auto mb-6 overflow-hidden border-4 border-primary/30">
+                              <Image
+                                src="/i.jpg"
+                                alt="Ícone do WhatsApp"
+                                fill
+                                className="object-cover"
+                              />
                             </div>
-                            <h4 className="text-2xl font-bold mb-2">
+
+                            <h4 className="text-xl font-bold text-foreground mb-2 tracking-wide">
                               {contact.number}
                             </h4>
-                            <p className="text-gray-200 mb-6 text-sm">
+                            <p className="text-muted-foreground mb-6 text-sm">
                               Clique para iniciar uma conversa no WhatsApp
                             </p>
                           </div>
 
                           <Link href={contact.href} passHref className="w-full">
-                            <Button className="w-full bg-primary hover:bg-primary/90 text-white py-3 text-base font-semibold rounded-lg transition-all duration-200 hover:scale-105">
+                            <Button className="w-full bg-primary hover:bg-primary/90 text-primary-foreground py-3 text-base font-semibold rounded-lg transition-all duration-200 hover:scale-105">
                               <Smartphone className="mr-2 h-4 w-4" />
                               Iniciar Conversa
                             </Button>
