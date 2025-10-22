@@ -4,7 +4,7 @@
 import { useState } from "react";
 import { Button } from "@/components/ui/button";
 import { ArrowRight } from "lucide-react";
-import campusHero from "@/public/assets/campus-hero.jpg";
+import hero from "@/public/assets/hero.png";
 import Modal from "./Modal/modal";
 import SubscriptionForm from "./Modal/SubscriptionForm";
 import { motion, useScroll, useTransform, Variants } from "framer-motion"; // Importações do Framer Motion
@@ -47,7 +47,7 @@ const Hero = () => {
         <motion.div
           className="absolute inset-0 z-0"
           style={{
-            backgroundImage: `url(${campusHero.src})`,
+            backgroundImage: `url(${hero.src})`,
             backgroundPosition: "center",
             backgroundSize: "cover",
             y: backgroundY, // Aplica o movimento parallax no eixo Y
@@ -81,14 +81,14 @@ const Hero = () => {
               className="text-xl md:text-2xl mb-8 max-w-2xl mx-auto leading-relaxed text-white/90"
               style={{ textShadow: "0px 2px 10px rgba(0,0,0,0.5)" }}
             >
-              Abra um polo parceiro de cursos técnicos e comece a empreender com a
-              força do nosso setor de parceria comercial.
+              Abra um polo parceiro de cursos técnicos e comece a empreender com
+              a força do nosso setor de parceria comercial.
             </motion.p>
 
             <motion.div
               variants={itemVariants}
               whileHover={{ scale: 1.05 }} // Efeito de zoom no hover
-              whileTap={{ scale: 0.95 }}   // Efeito de clique
+              whileTap={{ scale: 0.95 }} // Efeito de clique
               transition={{ type: "spring", stiffness: 300, damping: 15 }}
               className="inline-block" // Necessário para o hover funcionar corretamente
             >
@@ -111,7 +111,6 @@ const Hero = () => {
       </Modal>
 
       {/* Adiciona um espaço extra abaixo do Hero para que o efeito de parallax seja visível */}
-      
     </>
   );
 };
