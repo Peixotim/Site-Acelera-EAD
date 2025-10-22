@@ -67,10 +67,12 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="pt-br">
-      <meta
-        name="google-site-verification"
-        content="6aiavGRkxbAjXlDMk-Ai6fhDxcuMq0o6lp9vr2x3Q1k"
-      />
+      <header>
+        <meta
+          name="google-site-verification"
+          content="6aiavGRkxbAjXlDMk-Ai6fhDxcuMq0o6lp9vr2x3Q1k"
+        />
+      </header>
       <body className={`${poppins.variable} antialiased scroll-smooth`}>
         {children}
       </body>
