@@ -77,13 +77,7 @@ interface SubscriptionFormProps {
 type FormStatus = "form" | "loading" | "success";
 
 const areasDeInteresse = [
-  "Arte, Moda e Música", "Ciências Agrárias e Veterinária", "Ciências Contábeis",
-  "Ciências Religiosas", "Ciências Sociais", "Coaching", "Comunicação Social",
-  "Educação Física", "Educação", "Empresarial", "Engenharia e Arquitetura",
-  "Esportes", "Estética", "Farmácia", "Fisioterapia", "Gastronomia",
-  "Gestão, Economia e Finanças", "Jurídico", "Logística", "Marketing", "MBA",
-  "Meio Ambiente", "Nutrição", "Psicologia", "Saúde e Bem-Estar",
-  "Segurança Pública", "Serviço Social", "T.I",
+"Ser Parceiro","Saber Sobre Os Cursos"
 ];
 
 function SubscriptionForm({ onClose }: SubscriptionFormProps) {
@@ -185,10 +179,10 @@ function SubscriptionForm({ onClose }: SubscriptionFormProps) {
                 <input type="tel" id="whatsapp" name="whatsapp" required className={inputStyle} placeholder="(00) 00000-0000" value={whatsapp} onChange={handleWhatsappChange} maxLength={16} />
             </div>
             <div>
-                <label htmlFor="interestArea" className="block text-sm font-medium text-slate-600 mb-1">Área de Interesse <span className="text-red-500">*</span></label>
+                <label htmlFor="interestArea" className="block text-sm font-medium text-slate-600 mb-1">Interesse<span className="text-red-500">*</span></label>
                 <div className="relative">
                     <select id="interestArea" name="interestArea" required defaultValue="" className={`w-full appearance-none ${inputStyle}`}>
-                        <option value="" disabled>Selecione uma área</option>
+                        <option value="" disabled>Selecione seu Interesse</option>
                         {areasDeInteresse.map((area) => (<option key={area} value={area}>{area}</option>))}
                     </select>
                     <div className="absolute inset-y-0 right-0 flex items-center px-3 pointer-events-none"><ChevronDown className="h-5 w-5 text-slate-400" /></div>
