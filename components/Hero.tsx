@@ -1,4 +1,3 @@
-// src/components/Hero.tsx
 "use client";
 
 import { useState } from "react";
@@ -9,7 +8,6 @@ import Modal from "./Modal/modal";
 import SubscriptionForm from "./Modal/SubscriptionForm";
 import { motion, useScroll, useTransform, Variants } from "framer-motion";
 
-// Variantes para animar o container do texto (efeito cascata)
 const containerVariants: Variants = {
   hidden: { opacity: 0 },
   visible: {
@@ -20,7 +18,7 @@ const containerVariants: Variants = {
   },
 };
 
-// Variantes para animar cada item de texto/botão individualmente
+
 const itemVariants: Variants = {
   hidden: { opacity: 0, y: 20 },
   visible: {
@@ -35,8 +33,6 @@ const itemVariants: Variants = {
 
 const Hero = () => {
   const [showModal, setShowModal] = useState(false);
-
-  // Hooks do Framer Motion para o efeito Parallax
   const { scrollYProgress } = useScroll();
   const backgroundY = useTransform(scrollYProgress, [0, 1], ["0%", "50%"]);
 
@@ -73,7 +69,6 @@ const Hero = () => {
         </motion.div>
       </section>
 
-      {/* Modal */}
       <Modal isOpen={showModal} onClose={() => setShowModal(false)}>
         <SubscriptionForm onClose={() => setShowModal(false)} />
       </Modal>

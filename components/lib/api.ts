@@ -1,8 +1,9 @@
+// src/lib/apiService.ts
 const API_BASE_URL = process.env.NEXT_PUBLIC_API_URL!;
 
 export type SubscriptionData = {
   name: string;
-  phone: string;           // já normalizado (só dígitos, com 55 se quiser)
+  phone: string; // já normalizado (só dígitos, com 55 se quiser)
   areaOfInterest: string;
   enterpriseId: number;
 };
@@ -14,7 +15,7 @@ type LoginResponse = {
   message?: string;
   error?: string;
   authToken?: { token: string }; // sua API normalmente manda isso
-  token?: string;                // fallback
+  token?: string; // fallback
 };
 
 type LeadResponse = {
@@ -159,27 +160,6 @@ export async function submitSubscription(
     );
   }
 
-  // 2️⃣ Envia cópia para o Webhook do tráfego (Google Apps Script)
-  const webhookURL =
-    "https://script.google.com/macros/s/AKfycbxn83XpnztrO2VElP5KNK_JFn0lgKbjTbSlwThQo24gkqHkOtkx6v7MPC-L7AKoFQ9rwg/exec";
-
-  try {
-    await fetch(webhookURL, {
-      method: "POST",
-      mode: "no-cors", // evita bloqueio CORS
-      headers: {
-        "Content-Type": "application/json",
-      },
-      body: JSON.stringify(subscriptionData),
-    });
-
-    console.log("Webhook enviado com sucesso:", subscriptionData);
-  } catch (err) {
-    console.warn("Falha ao enviar para o webhook:", err);
-    // não lança erro — apenas loga, para não impactar o front
-  }
-
-  // 3️⃣ Retorna normalmente o resultado da sua API
   return data;
 }
 

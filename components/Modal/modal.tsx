@@ -1,3 +1,4 @@
+// src/components/Modal.tsx
 "use client";
 
 import { useEffect, useRef, type ReactNode } from "react";
