@@ -80,7 +80,7 @@ const About = () => {
         {
           number: "31 98101-2568",
           href: "https://wa.me/5531981012568?text=Ol%C3%A1%2C%20gostaria%20de%20mais%20informa%C3%A7%C3%B5es%20sobre%20a%20parceria%20de%20Tecnicos",
-          image: "/i2.jpg"
+          image: "/i2.jpeg"
         }
       ],
     },
