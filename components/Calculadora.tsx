@@ -349,11 +349,10 @@ export default function CalculadoraPage() {
           </p>
         </header>
 
-        {/* === SECTION INPUTS (ID para Tutorial) === */}
+
         <section id="tour-inputs" className="bg-white rounded-[2.5rem] p-6 md:p-10 shadow-[0_8px_40px_rgb(0,0,0,0.04)] border border-zinc-100 mb-8">
           <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 items-end">
-            
-            {/* META - Define modo META */}
+
             <div className="lg:col-span-5">
               <SmartInput
                 label="Qual sua meta de ganho?"
@@ -591,7 +590,6 @@ export default function CalculadoraPage() {
         </div>
       )}
 
-      {/* 3. Tutorial Overlay (Onboarding) */}
       <TutorialOverlay 
         steps={tutorialSteps} 
         isOpen={isTutorialOpen} 
