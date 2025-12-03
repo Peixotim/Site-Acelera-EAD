@@ -75,7 +75,13 @@ const About = () => {
         {
           number: "(31) 97329-6330",
           href: "https://wa.me/5531973296330?text=Ol%C3%A1%2C%20gostaria%20de%20mais%20informa%C3%A7%C3%B5es%20sobre%20a%20parceria%20de%20Tecnicos",
+          image: "/i.jpg"
         },
+        {
+          number: "31 98101-2568",
+          href: "https://wa.me/5531981012568?text=Ol%C3%A1%2C%20gostaria%20de%20mais%20informa%C3%A7%C3%B5es%20sobre%20a%20parceria%20de%20Tecnicos",
+          image: "/i2.jpg"
+        }
       ],
     },
   ];
@@ -230,7 +236,7 @@ const About = () => {
                           <div className="flex-1">
                             <div className="relative rounded-full w-20 h-20 mx-auto mb-6 overflow-hidden border-4 border-primary/30">
                               <Image
-                                src="/i.jpg"
+                                src={contact.image}
                                 alt="Ícone do WhatsApp"
                                 fill
                                 className="object-cover"
