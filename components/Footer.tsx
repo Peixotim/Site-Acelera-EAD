@@ -44,7 +44,6 @@ const columnVariants: Variants = {
 const Footer = () => {
   const [modalAberto, setModalAberto] = useState<string | null>(null);
 
-  // --- Estrutura de Dados Aprimorada ---
   const quickLinks = [
     { text: "Sobre Nós", href: "/about" },
     { text: "Cursos", href: "/cursos" },
