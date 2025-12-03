@@ -118,8 +118,7 @@ const Header = () => {
                                 {/* MUDANÇA: Usar um Link ou um Button que abre o modal */}
                                 <Button
                                     onClick={() => {
-                                        // Aqui você colocaria a lógica para abrir o modal
-                                        // setShowModal(true); // Exemplo, se o estado fosse gerenciado aqui
+
                                         setIsMenuOpen(false);
                                     }}
                                     className="bg-primary hover:bg-primary/90 w-full"
