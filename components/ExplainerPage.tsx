@@ -60,14 +60,11 @@ export default function ExplainerPage() {
               Usar Calculadora
               <ArrowRight className="ml-2" size={18} />
             </button>
-            <button className="inline-flex items-center justify-center px-8 py-4 text-base font-bold text-zinc-600 transition-all bg-zinc-100 rounded-full hover:bg-zinc-200">
-              Ver Tutorial
-            </button>
+
           </div>
         </div>
       </section>
 
-      {/* === COMO FUNCIONA (BENTO GRID) === */}
       <section className="py-20 bg-white">
         <div className="max-w-6xl mx-auto px-6">
           <div className="mb-16">
@@ -75,7 +72,7 @@ export default function ExplainerPage() {
             <p className="text-zinc-500 text-lg">Três passos para transformar sua estratégia de vendas.</p>
           </div>
 
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-6 auto-rows-[300px]">
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-6 auto-rows-[340px]">
             <div className="md:col-span-2 rounded-[2.5rem] bg-zinc-900 p-10 text-white relative overflow-hidden flex flex-col justify-center">
               <div className="absolute top-0 right-0 w-64 h-64 bg-orange-500/20 blur-[80px] rounded-full pointer-events-none" />
               
